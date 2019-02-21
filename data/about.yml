@@ -1,0 +1,21 @@
+enable  : true
+title   : What is the Open Research Network?
+description: >
+  The Brisbane Open Research Network is a collection of researchers and research-associated workers in Brisbane, Australia. It aims to facilitate the growth of open practices by bringing together independently motivated and like-minded people, and providing a platform for the sharing of resources. 
+  </br></br>
+  We are part of a larger network, called the Australia and New Zealand Open Research Network (ANZORN). Together, we aim to ensure that nobody in ANZ needs to pursue open research alone.
+  </br></br>
+  Not sure if you're an open researcher? That's okay! We welcome people at any level of interest in open research, even people who have never even heard of it. You're welcome to follow us on <a href="https://twitter.com/BrisOpenRes">Twitter</a>, swing by the ANZORN Slack workspace (sign up on the front page for an email link) or head to the other communities in our network. 
+  </br></br>
+  BORN is inspired by the <a href="https://openscience-utrecht.com/">Open Science Community Utrecht</a>.  
+  
+aboutItem:
+  - title : What is open research?
+    description: > 
+      Open research is a term describing a variety of practices directed at maximising the transparency of research, and ultimately leading to maximisation of public goods. These include: Open Access publication, open data, open methodology, Open Source software, open educational resources & open peer review.
+  - title : Where should I start?
+    description: > 
+      Check if there is an open science community at your workplace, and if not, let us know. We might be able to help you start one! 
+  - title : What is the logo?
+    description: > 
+      The logo depicts the Wheel of Brisbane, a very noticeable part of Brisbane's skyline. It also represents the many individuals and groups in Brisbane coming together to form an eclectic but united community in the name of open research.

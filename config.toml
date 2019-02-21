@@ -1,0 +1,73 @@
+baseURL = "/"
+languageCode = "en-uk"
+title = "Brisbane Open Research Network"
+theme = "timer-hugo"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "About"
+        url     = "/about"
+        weight  = 1
+    [[menu.nav]]
+        name    = "Code of Conduct"
+        url     = "/code-of-conduct"
+        weight  = 2
+    [[menu.nav]]
+        name    = "Events"
+        url     = "/events"
+        weight  = 3
+
+# Site Params
+[params]
+    home = "Home"
+    logo = "images/ferris-wheel-name.png"
+    dateFormat = "6 January 2006"
+    description = "A hub for Open Research practitioners in Brisbane, Australia."
+
+    # Banner Section
+    [params.banner]
+        enable  = true
+        bgImage = "images/bg.jpg"
+        heading = "WELCOME TO THE BRISBANE OPEN RESEARCH NETWORK"
+        description = "A hub for Open Research practitioners in Brisbane, Australia."
+        [[params.banner.flipText]]
+            title   = "COMMUNITY"
+        [[params.banner.flipText]]
+            title   = "ADVOCACY"
+        [[params.banner.flipText]]
+            title   = "EDUCATION"
+        [[params.banner.flipText]]
+            title   = "RESOURCES"
+
+    # Homepage About Section
+    [params.about]
+        enable  = true
+        title   = "ABOUT THE NETWORK"
+        content = "Open science and open research practices are growing in Australia, but it can be difficult to know who else is engaging in these practices. The Brisbane Open Research Network (BORN) is part of a larger network throughout Australia and New Zealand (ANZORN) aimed at promoting open research and helping to connect people to share resources, practices, and a sense of community. If you're not in Brisbane but like the sound of the community, check out the other communities in our network below. </br></br>We aim to help you find like-minded folks, support efforts to reform institutional policies and practices, and educate others about open research.</br></br>BORN is an inclusive and welcoming community by design — to preserve this, BORN activities are subject to our <a href='/coc' target='_blank'>Code of Conduct</a>."
+        image   = "images/ferris-wheel.png"
+
+    # Twitter and Slack Signup Section
+    [params.twitterslack]
+        enable  = true
+        ttitle   = "JOIN US ON TWITTER"
+        tcontent = "<a class='twitter-timeline' data-height='600' href='https://twitter.com/BrisOpenRes?ref_src=twsrc%5Etfw'>Tweets by BrisOpenRes</a> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>"
+        stitle   = "JOIN US ON SLACK"
+
+    # Call to Action
+    [params.cta]
+        enable  = true
+        title   = "ANZORN Networks"
+        content = "Want to connect with one of our partner networks?"
+        btnAText = "Adelaide - coming soon"
+        btnMText = "Melbourne"
+        btnNZText = "New Zealand"
+        btnPText = "Perth - coming soon"
+        btnSText = "Sydney"
+        
+        
+        
+    

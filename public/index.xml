@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brisbane Open Research Network</title>
+    <link>/</link>
+    <description>Recent content on Brisbane Open Research Network</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>/code-of-conduct/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/code-of-conduct/</guid>
+      <description>Interim Code of Conduct Summary The Brisbane Open Research Network (BORN) seeks to promote open practices, and as part of this vision is committed to the provision of a safe, inclusive, welcoming and harassment-free atmosphere to all. All parties to activities associated with the Network are required to be compliant with the code of conduct. If you observe something that you do not feel is consistent with these principles, please report them to the steering committee.</description>
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>/events/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/events/</guid>
+      <description>Brisbane Events Events taking place in Brisbane or online. Click on the event name for details.  
+
+All ANZORN Events Events taking place anywhere in Australia, New Zealand, online, or (possibly) the world. For information regarding exactly where the event is happening, please click on the event name.</description>
+    </item>
+    
+  </channel>
+</rss>

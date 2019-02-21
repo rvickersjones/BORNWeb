@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Help on Brisbane Open Research Network</title>
+    <link>/tags/help/</link>
+    <description>Recent content in Help on Brisbane Open Research Network</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/help/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>test</title>
+      <link>/testnewpost/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/testnewpost/</guid>
+      <description>{{ partial &amp;ldquo;about.html&amp;rdquo; . }}
+Testing to see if this new page appears anywhere. Okay, it does. Excellent. Now how do I remove the date and tags? Not by removing it from the YAML!
+For Markdown syntax: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+Can I do line breaks just with enter? Kind of. But it didn&amp;rsquo;t add the extras. Twitter link Links work using html, so maybe linebreaks will too.     Add some words after the break.</description>
+    </item>
+    
+  </channel>
+</rss>
