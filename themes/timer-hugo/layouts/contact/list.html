@@ -1,0 +1,95 @@
+{{ partial "header.html" . }}
+
+{{ partial "page-title.html" . }}
+
+{{ if .Site.Data.contact.enable }}
+{{ "<!-- Contact Section Start -->" | safeHTML }}
+<section id="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="block">
+                    {{ with .Site.Data.contact.contactFormTitle }}<h2 class="subtitle wow">{{ . }}</h2>{{ end }}
+                    {{ with .Site.Data.contact.contactFormSubtitle }}<p class="subtitle-des wow">{{ . }}</p>{{ end }}
+                    <div class="contact-form">
+                        <form id="contact-form" method="#" action="#" role="form">
+
+                            <div class="form-group wow">
+                                <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                            </div>
+
+                            <div class="form-group wow">
+                                <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                            </div>
+
+                            <div class="form-group wow">
+                                <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+                            </div>
+
+                            <div class="form-group wow">
+                                <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+                            </div>
+
+                            <div id="success" class="success">
+                                Thank you. We will get back to you ASAP :)
+                            </div>
+
+                            <div id="error" class="error">
+                                Sorry, don't know what happened. Try later :(
+                            </div>
+
+                            <div id="submit" class="wow">
+                                <button type="submit" id="contact-submit" class="btn btn-default btn-send hvr-bounce-to-right" value="Send Message">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="map-area">
+                    {{ with .Site.Data.contact.mapTitle }}<h2 class="subtitle wow">{{ . }}</h2>{{ end }}
+                    {{ with .Site.Data.contact.mapSubtitle }}<p class="subtitle-des wow">{{ . }}</p>{{ end }}
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14187.787922057589!2d152.97355505000002!3d-27.252192149999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b93fba3d1b664c3%3A0xf02a35bd7220d10!2sMick+Hanfling+Park!5e0!3m2!1sen!2sau!4v1546321856039" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Commented out by Raine Vickers-Jones
+        <div class="row address-details">
+            <div class="col-md-3">
+                <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
+                    <i class="ion-ios-location-outline"></i>
+                    {{ with .Site.Data.contact.officeAddress1 }}<h5>{{ . }}</h5>{{ end }}
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".5s">
+                    <i class="ion-ios-location-outline"></i>
+                    {{ with .Site.Data.contact.officeAddress2 }}<h5>{{ . }}</h5>{{ end }}
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="email wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
+                    <i class="ion-ios-email-outline"></i>
+                    <p>{{ with .Site.Data.contact.mail1 }} <a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+                        <br>{{ with .Site.Data.contact.mail2 }} <a href="mailto:{{ . }}">{{ . }}</a>{{ end }}</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="phone wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".9s">
+                    <i class="ion-ios-telephone-outline"></i>
+                    <p>{{ with .Site.Data.contact.phone1 }}{{ . }}{{ end }}
+                        <br>{{ with .Site.Data.contact.phone2 }}{{ . }}{{ end }}</p>
+                </div>
+            </div>
+        </div>
+        -->
+    </div>
+</section>
+{{ "<!-- Contact Section End -->" | safeHTML }}
+{{ end }}
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}
